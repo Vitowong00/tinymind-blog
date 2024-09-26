@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&amp;display=swap');
+    </style>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="400" height="600" fill="#FAFAFA"/>
+  
+  <!-- 几何装饰 -->
+  <path d="M0,0 L400,600" stroke="#D3D3D3" stroke-width="0.5" opacity="0.5"/>
+  <path d="M400,0 L0,600" stroke="#D3D3D3" stroke-width="0.5" opacity="0.5"/>
+  
+  <!-- 标题 -->
+  <text x="200" y="80" font-family="Noto Serif SC" font-size="32" font-weight="bold" text-anchor="middle" fill="#333333">汉语新解</text>
+  
+  <!-- 分隔线 -->
+  <line x1="50" y1="100" x2="350" y2="100" stroke="#666666" stroke-width="1"/>
+  
+  <!-- 词语 -->
+  <text x="200" y="150" font-family="Noto Serif SC" font-size="24" text-anchor="middle" fill="#333333">牺牲品</text>
+  <text x="200" y="180" font-family="Arial" font-size="16" text-anchor="middle" fill="#666666">Sacrifice</text>
+  <text x="200" y="210" font-family="Arial" font-size="16" text-anchor="middle" fill="#666666">희생품</text>
+  
+  <!-- 解释 -->
+  <text x="50" y="260" font-family="Noto Serif SC" font-size="18" fill="#333333">
+    <tspan x="50" dy="0">历史的必需添加剂，</tspan>
+    <tspan x="50" dy="30">进步的隐形垫脚石。</tspan>
+    <tspan x="50" dy="30">社会对你说：</tspan>
+    <tspan x="50" dy="30">"感谢你的贡献，</tspan>
+    <tspan x="50" dy="30">虽然我们可能会忘记你的名字。"</tspan>
+  </text>
+  
+  <!-- 简图 -->
+  <g transform="translate(100, 450)">
+    <rect x="0" y="0" width="200" height="100" fill="#E6E6E6"/>
+    <rect x="0" y="0" width="200" height="20" fill="#A9A9A9"/>
+    <text x="100" y="15" font-family="Noto Serif SC" font-size="12" text-anchor="middle" fill="#FFFFFF">历史的台阶</text>
+    <circle cx="100" cy="60" r="30" fill="#D3D3D3"/>
+    <text x="100" y="65" font-family="Noto Serif SC" font-size="12" text-anchor="middle" fill="#333333">牺牲品</text>
+    <text x="100" y="130" font-family="Noto Serif SC" font-size="14" fill="#666666">被遗忘的基石</text>
+  </g>
+</svg>
